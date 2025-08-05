@@ -9,19 +9,6 @@ import React from 'react';
     
      
    
-      const [isChecked, setIsChecked] = useState(false);
-
-  const toggleCheck = () => {
-    setIsChecked(!isChecked);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    axios.post('http://localhost:3001/api/register', { name, email, Password })
-
-    .then(result => console.log(result))
-    .catch(err=> console.log(err))
-  }
 
 
     return(
@@ -121,4 +108,5 @@ import React from 'react';
 }
 
 export default register;
+
 
