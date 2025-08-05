@@ -2,23 +2,7 @@ import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import usEr from '/image/user.png';
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import s55 from '/image/55.png';
-import Chat from '/image/chat.png';
-import Shoppin from '/image/shopping-cart.png';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
 
-
-
-
-
-function register(){
-
-  const[name , setName] = useState();
-  const[email , setEmail] = useState();
-  const[Password , setPassword] = useState();
 
 
 
@@ -137,3 +121,4 @@ function register(){
 }
 
 export default register;
+
