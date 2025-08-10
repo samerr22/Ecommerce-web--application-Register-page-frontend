@@ -14,33 +14,7 @@ import React from 'react';
     return(
 
       <div>
-<header style={headerStyle}>
-  <div style={{marginLeft: '190px'}}>
-      <div style={{fontSize: '40px',fontFamily: 'Impact'}}>SAFICC</div>
-      </div>
-      <div style={searchBarStyle}>
-        <input style={{width: '680px',height: '35px',borderRadius: '50px', marginLeft: '70px'  ,border: 'none'}}type="text" placeholder="Search..."  />
-        <button style={{ marginLeft: '-70px', 
-        backgroundColor: '#f98029', 
-        color: '#fff', border: 'none', 
-        borderRadius: '40px', cursor: 'pointer',
-        height: '20px',
-        fontSize: '15px',
-        display: 'flex',
-        alignItems:'center',
-        justifyContent:'center',
-        fontFamily: 'Garamond' }}>
-    Search
-  </button>
-      </div>
-      <div style={userActionsStyle}>
-      <img src={usEr} alt="user" style={{ width: '40px', height: '40px', marginRight:'20px', }}/>
-        <a href="#" style={{marginRight: '20px',fontFamily: 'Garamond'}}>Login</a>
-        <a href="#" style={{marginRght: '20px',fontFamily: 'Garamond'}}>Sign Up</a>
-        <div style={{marginLeft: '20px'}}></div>
-        <img src={Shoppin} alt="user" style={{ width: '25px', height: '25px', marginRight: '200px', }}/>
-      </div>  
- </header>
+
 
 
  <h3 style={{position: 'absolute',left: '400px',top: '170px',fontSize: '25px',fontFamily: 'Garamond'}}>Creat a New Accout</h3>
@@ -108,5 +82,6 @@ import React from 'react';
 }
 
 export default register;
+
 
 
